@@ -8,8 +8,8 @@ error_reporting(E_ALL);
 session_start();
 
 // DB connection
-$conn = new mysqli("localhost","root","","donations_db");
-// $conn = new mysqli("localhost","navjeevanvrudhas","~qt}5&g+jfxE","navjeevanvrudhas_donations_db");
+// $conn = new mysqli("localhost","root","","donations_db");
+$conn = new mysqli("localhost","navjeevanvrudhas","~qt}5&g+jfxE","navjeevanvrudhas_donations_db");
 if($conn->connect_error) die("DB Connection failed: " . $conn->connect_error);
 
 if($_SERVER['REQUEST_METHOD'] === 'POST'){
