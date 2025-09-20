@@ -1,0 +1,7 @@
+# .cpanel.yml
+---
+deployment:
+  tasks:
+    - export DEPLOYDIR=/home/navjeevanvrudhas/public_html
+    - echo "Deploying to $DEPLOYDIR"
+    - /bin/cp -r * $DEPLOYDIR
