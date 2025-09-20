@@ -5,3 +5,10 @@ deployment:
     - export DEPLOYDIR=/home/navjeevanvrudhas/public_html
     - echo "Deploying to $DEPLOYDIR"
     - /bin/cp -r * $DEPLOYDIR
+    version: 2
+app:
+  type: php
+  document_root: /
+  index_files:
+    - index.php
+
