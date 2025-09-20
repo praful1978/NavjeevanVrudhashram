@@ -5,7 +5,7 @@ ini_set('display_errors', 1);
 
 session_start();
 
-$siteTitle = "नवजीवन वृद्धाश्रम – नेर, जि. यवतमाळ, महाराष्ट्र";
+$siteTitle = "नवजीवन वृद्धाश्रम – नेर,तालुका नेर, जि. यवतमाळ, महाराष्ट्र";
 
 // Database connection
 // $conn = new mysqli("localhost","root","","donations_db");
